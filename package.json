@@ -1,0 +1,36 @@
+{
+  "name": "exp-val-err",
+  "version": "0.0.1",
+  "description": "Showing issue with express validator middleware",
+  "main": "index.js",
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaVersion": 7,
+      "sourceType": "module"
+    },
+    "env": {
+      "node": true
+    },
+    "rules": {
+      "no-console": 0,
+      "no-unused-vars": 1
+    }
+  },
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "cors": "^2.7.1",
+    "express": "^4.13.3",
+    "express-validator": "^3.2.0",
+    "helmet": "^3.6.1",
+    "morgan": "^1.8.2"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Michele Titolo",
+  "license": "ISC"
+}
